@@ -4,6 +4,7 @@
 name: imaotai-action
 
 on:
+  workflow_dispatch: # 添加此行以支持手动触发
   push:
     branches: [ "master" ]
     paths:
